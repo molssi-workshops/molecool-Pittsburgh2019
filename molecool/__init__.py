@@ -5,6 +5,9 @@ A python package for analyzing and visualizing molecules. For the MolSSI Best Pr
 
 # Add imports here
 from .functions import *
+from .measure import calculate_distance, calculate_angle
+from .molecule import build_bond_list
+from .visualize import draw_molecule, bond_histogram
 
 # Handle versioneer
 from ._version import get_versions
